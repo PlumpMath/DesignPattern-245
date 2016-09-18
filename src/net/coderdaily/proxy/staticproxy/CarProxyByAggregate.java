@@ -1,16 +1,16 @@
 package net.coderdaily.proxy.staticproxy;
 
 /**
- * Description: Í¨¹ı¾ÛºÏÊµÏÖ
- * 
+ * Description: é€šè¿‡èšåˆå®ç°
+ *
  * @author coderdaily.net
- * @date 2016Äê7ÔÂ25ÈÕ
+ * @date 2016å¹´7æœˆ25æ—¥
  */
 public class CarProxyByAggregate implements Moveable {
 	Moveable m;
 
 	public CarProxyByAggregate(Moveable m) {
-		super();
+//		super();
 		this.m = m;
 	}
 
@@ -21,7 +21,7 @@ public class CarProxyByAggregate implements Moveable {
 		m.move();
 
 		long end = System.currentTimeMillis();
-		System.out.println("2.µ÷ÓÃ·½·¨ºÄÊ± :" + (end - start));
+		System.out.println("2.è°ƒç”¨æ–¹æ³•è€—æ—¶ :" + (end - start));
 	}
 
 }

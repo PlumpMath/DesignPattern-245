@@ -1,10 +1,10 @@
 package net.coderdaily.proxy.staticproxy;
 
 /**
- * Description: Ê¹ÓÃ¼Ì³ÐÊµÏÖ
- * 
+ * Description: ä½¿ç”¨ç»§æ‰¿å®žçŽ°
+ *
  * @author coderdaily.net
- * @date 2016Äê7ÔÂ25ÈÕ
+ * @date 2016å¹´7æœˆ25æ—¥
  */
 public class CarProxyByExtend extends Car {
 
@@ -12,10 +12,10 @@ public class CarProxyByExtend extends Car {
 	public void move() {
 		long start = System.currentTimeMillis();
 
-		super.move();// ¼Ólog
+		super.move();// åŠ log
 
 		long end = System.currentTimeMillis();
-		System.out.println("1.µ÷ÓÃ·½·¨ºÄÊ± :" + (end - start));
+		System.out.println("1.è°ƒç”¨æ–¹æ³•è€—æ—¶ :" + (end - start));
 	}
 
 }

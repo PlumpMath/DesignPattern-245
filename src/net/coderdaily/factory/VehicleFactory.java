@@ -1,6 +1,6 @@
 package net.coderdaily.factory;
 
-//³éÏóÀà£¬½»Í¨¹¤¾ß½Ó¿Ú
+//æŠ½è±¡ç±»ï¼Œäº¤é€šå·¥å…·æ¥å£
 public abstract class VehicleFactory {
 	abstract Moveable create();
 }

@@ -1,4 +1,6 @@
-package net.coderdaily.proxy.staticproxy;
+package net.coderdaily.proxy.dynamicproxy;
+
+import net.coderdaily.proxy.staticproxy.Moveable;
 
 import java.util.Random;
 
